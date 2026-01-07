@@ -9,6 +9,13 @@ import wiring1 from '../../assets/images/wiring.png';
 import wiring2 from '../../assets/images/wiring1.png';
 import wiring3 from '../../assets/images/wiring2.png';
 import wiring4 from '../../assets/images/wiring3.png';
+import cctv1 from '../../assets/images/cctv.webp';
+import cctv2 from '../../assets/images/cctv2.webp';
+import fence1 from '../../assets/images/elecctric-fence.png';
+import fence2 from '../../assets/images/electric-fence2.png';
+import gypsum1 from '../../assets/images/gypsum.png';
+import gypsum2 from '../../assets/images/gypsum2.webp';
+import wallWiring from '../../assets/images/wall-wiring.webp';
 
 const Gallery = () => {
     const projects = [
@@ -59,6 +66,48 @@ const Gallery = () => {
             image: solar4,
             title: 'Commercial Solar Power',
             category: 'Renewable Energy'
+        },
+        {
+            id: 9,
+            image: cctv1,
+            title: 'HD Surveillance System',
+            category: 'Security'
+        },
+        {
+            id: 10,
+            image: cctv2,
+            title: 'Smart CCTV Integration',
+            category: 'Security'
+        },
+        {
+            id: 11,
+            image: fence1,
+            title: 'Electric Fence Installation',
+            category: 'Security'
+        },
+        {
+            id: 12,
+            image: fence2,
+            title: 'High-Security Perimeter',
+            category: 'Security'
+        },
+        {
+            id: 13,
+            image: gypsum1,
+            title: 'Modern Gypsum Ceiling',
+            category: 'Interior Design'
+        },
+        {
+            id: 14,
+            image: gypsum2,
+            title: 'Decorative Lighting Setup',
+            category: 'Interior Design'
+        },
+        {
+            id: 15,
+            image: wallWiring,
+            title: 'Internal Conduit Wiring',
+            category: 'Electrical'
         },
     ];
 

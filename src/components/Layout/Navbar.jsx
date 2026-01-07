@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
-                    <a href="/" className="flex-shrink-0 flex items-center gap-2 hover:opacity-90 transition-opacity">
+                    <a href="#hero" className="flex-shrink-0 flex items-center gap-2 hover:opacity-90 transition-opacity">
                         <Shield className="h-8 w-8 text-brand-orange" />
                         <div className="flex flex-col">
                             <span className="text-white font-display font-bold text-xl uppercase tracking-wider">Vincent Otieno</span>
