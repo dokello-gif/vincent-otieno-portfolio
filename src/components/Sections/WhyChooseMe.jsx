@@ -51,7 +51,7 @@ const WhyChooseMe = () => {
                                     {item.icon}
                                 </div>
                                 <h4 className="text-xl font-bold mb-2">{item.title}</h4>
-                                <p className="text-sm text-gray-400">
+                                <p className="text-sm text-gray-300">
                                     {item.description}
                                 </p>
                             </div>

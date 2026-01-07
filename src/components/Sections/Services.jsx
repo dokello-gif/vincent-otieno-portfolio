@@ -40,9 +40,9 @@ const Services = () => {
         <section id="services" className="py-20 bg-slate-100 dark:bg-slate-900">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold text-brand-navy mb-4">Our Core Services</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold text-brand-navy dark:text-white mb-4">Our Core Services</h2>
                     <div className="h-1 w-20 bg-brand-orange mx-auto"></div>
-                    <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+                    <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                         Delivering technical excellence and reliability across all electrical and security disciplines.
                     </p>
                 </div>
@@ -55,13 +55,13 @@ const Services = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border-b-4 border-transparent hover:border-brand-orange group"
+                            className="bg-white dark:bg-slate-800 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border-b-4 border-transparent hover:border-brand-orange group"
                         >
-                            <div className="mb-6 p-4 bg-brand-navy/5 rounded-full inline-block group-hover:bg-brand-orange/10 transition-colors duration-300">
+                            <div className="mb-6 p-4 bg-brand-navy/5 dark:bg-brand-light/5 rounded-full inline-block group-hover:bg-brand-orange/10 transition-colors duration-300">
                                 {service.icon}
                             </div>
-                            <h3 className="text-2xl font-bold text-brand-navy mb-3">{service.title}</h3>
-                            <p className="text-gray-600 leading-relaxed">
+                            <h3 className="text-2xl font-bold text-brand-navy dark:text-white mb-3">{service.title}</h3>
+                            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                                 {service.description}
                             </p>
                         </motion.div>
