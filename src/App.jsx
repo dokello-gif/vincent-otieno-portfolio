@@ -4,7 +4,7 @@ import Footer from './components/Layout/Footer';
 import Hero from './components/Sections/Hero';
 import Services from './components/Sections/Services';
 import WhyChooseMe from './components/Sections/WhyChooseMe';
-import Gallery from './components/Sections/Gallery';
+import Projects from './components/Sections/Projects';
 import Contact from './components/Sections/Contact';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Hero />
         <Services />
         <WhyChooseMe />
-        <Gallery />
+        <Projects />
         <Contact />
       </main>
       <Footer />

@@ -34,7 +34,7 @@ const WhyChooseMe = () => {
                 <div className="flex flex-col lg:flex-row items-center gap-12 text-center lg:text-left">
 
                     <div className="lg:w-1/2">
-                        <h2 className="text-4xl md:text-5xl font-bold mb-6">Why Choose Vincent Powers?</h2>
+                        <h2 className="text-4xl md:text-5xl font-bold mb-6">Why Choose Vin's Electrical & Security Solutions?</h2>
                         <div className="h-1 w-20 bg-brand-orange mb-8 mx-auto lg:mx-0"></div>
                         <p className="text-gray-300 text-lg leading-relaxed mb-8">
                             In an industry where safety and precision are non-negotiable, we stand out by delivering certified, high-quality work that gives you peace of mind. We don't cut corners—we build systems that last.

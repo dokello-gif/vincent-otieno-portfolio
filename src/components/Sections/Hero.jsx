@@ -29,10 +29,8 @@ const Hero = () => {
                     </div>
 
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                        Precision Electrical <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
-                            & Security Solutions
-                        </span>
+                        Vin's Electrical <br />
+                        & Security Solutions
                     </h1>
 
                     <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
@@ -44,8 +42,8 @@ const Hero = () => {
                         <a href="#contact" className="bg-brand-orange hover:bg-orange-600 text-white px-8 py-4 rounded-sm font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-2 text-sm shadow-lg shadow-orange-900/20">
                             Get a Free Quote <ArrowRight className="h-5 w-5" />
                         </a>
-                        <a href="#services" className="border border-gray-500 hover:border-white text-white px-8 py-4 rounded-sm font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-2 text-sm">
-                            View Services
+                        <a href="#projects" className="border border-gray-500 hover:border-white text-white px-8 py-4 rounded-sm font-bold uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-2 text-sm">
+                            PROJECTS
                         </a>
                     </div>
 

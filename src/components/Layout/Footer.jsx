@@ -9,11 +9,11 @@ const Footer = () => {
 
                     <div className="flex items-center gap-2 mb-4 md:mb-0">
                         <Shield className="h-6 w-6 text-brand-orange" />
-                        <span className="font-display font-bold text-lg tracking-wider">VINCENT OTIENO</span>
+                        <span className="font-display font-bold text-lg tracking-wider">VIN'S ELECTRICAL & SECURITY SOLUTIONS</span>
                     </div>
 
                     <div className="text-sm text-gray-500">
-                        &copy; {new Date().getFullYear()} Vincent Otieno. All rights reserved.
+                        &copy; {new Date().getFullYear()} Vin's Electrical & Security Solutions. All rights reserved.
                     </div>
 
                     <div className="flex gap-6 mt-4 md:mt-0">

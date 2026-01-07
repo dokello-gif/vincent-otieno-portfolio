@@ -18,7 +18,7 @@ const Navbar = () => {
         { name: 'Home', href: '#hero' },
         { name: 'Services', href: '#services' },
         { name: 'Why Choose Me', href: '#why-me' },
-        { name: 'Gallery', href: '#gallery' },
+        { name: 'Projects', href: '#projects' },
         { name: 'Contact', href: '#contact' },
     ];
 
@@ -30,8 +30,8 @@ const Navbar = () => {
                     <a href="#hero" className="flex-shrink-0 flex items-center gap-2 hover:opacity-90 transition-opacity">
                         <Shield className="h-8 w-8 text-brand-orange" />
                         <div className="flex flex-col">
-                            <span className="text-white font-display font-bold text-xl uppercase tracking-wider">Vincent Otieno</span>
-                            <span className="text-gray-400 text-xs tracking-widest">Electrical & Security</span>
+                            <span className="text-white font-display font-bold text-lg uppercase tracking-wider leading-tight">Vin's Electrical &</span>
+                            <span className="text-white font-display font-bold text-lg uppercase tracking-wider leading-tight">Security Solutions</span>
                         </div>
                     </a>
 
